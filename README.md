@@ -1,10 +1,10 @@
-# 🧠 Speed Dating Data Analysis (EN)
+#  Speed Dating Data Analysis (EN)
 
-## 📁 Files
+##  Files
 
 - `tinder_project.ipynb`: Full notebook with updated cleaning, EDA, visualizations (Plotly), and hypothesis testing
 
-## 🧰 Libraries Used
+##  Libraries Used
 
 - pandas
 - numpy
