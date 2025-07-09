@@ -1,22 +1,27 @@
-#  Speed Dating Data Analysis (EN)
+# Projet Tinder : Analyse des données.
 
-##  Files
+# Contexte
 
-- `tinder_project.ipynb`: Full notebook with updated cleaning, EDA, visualizations (Plotly), and hypothesis testing
+Ce projet s’appuie sur une expérience de Speed Dating menée dans une université américaine, au cours de laquelle des participants ont été invités à rencontrer plusieurs partenaires potentiels lors de sessions chronométrées, puis à évaluer chacun d’eux selon différents critères (attractivité, intelligence, sincérité, etc.), ainsi qu’à indiquer s’ils souhaitaient un second rendez-vous.
 
-##  Libraries Used
+# Objectifs de l’analyse
+
+- Nettoyer et préparer les données du Speed Dating
+- Explorer les caractéristiques des participants et leurs préférences
+- Visualiser les tendances avec des graphiques statiques et interactifs
+- Tester l’impact du revenu sur la probabilité de "match"
+- Étudier l’évolution des préférences au fil des rencontres (début/milieu/fin)
+
+# 📁 Fichiers
+
+Tinder_project.ipynb : Notebook mis à jour avec nettoyage, exploration, visualisations (Plotly) et tests d’hypothèses
+
+# Librairies utilisées
 
 - pandas
 - numpy
 - matplotlib
 - seaborn
-- scipy (chi-square tests, t-tests)
-- plotly (interactive visualizations: box plots, heatmaps)
+- scipy (tests χ², tests t)
+- plotly (visualisations interactives : box plots, heatmaps)
 
-## 🎯 Analysis Goals
-
-- Clean and preprocess the Speed Dating dataset
-- Explore participants' characteristics and preferences
-- Visualize trends using both static (matplotlib/seaborn) and interactive (Plotly) plots
-- Perform hypothesis testing (e.g., income influence on matches)
-- Analyze changes in preferences over time (start/mid/end of session)
